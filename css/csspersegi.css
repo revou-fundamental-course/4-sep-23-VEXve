@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    background-color: #0E21A0;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #1450A3;
+}
+#LuasInputSection{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+input{
+    padding: 15px;
+    border: #337CCF solid 3px;
+    border-radius: 7px;
+    outline: none;
+    width: 100vh;
+
+}
+input:focus{
+    border-color: #1450A3;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-right: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #1450A3;
+    color: #F7E987;
+}
+button:hover{
+    color: #0E21A0;
+    background-color: #97FFF4;
+}
+button:active{
+    transform: translateY(2px);
+
+}
+#Inputbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+#gambar{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 50px;
+
+}
+#hasil-dari-persegi {
+    border: black 2px solid;
+    width: 250px;
+    height: 250px;
+    margin-left: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transform: translateY(-200px);
+}
+.Kalkulator{
+    width: max-content;
+}

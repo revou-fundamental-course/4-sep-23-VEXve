@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Persegi</title>
+    <link rel="stylesheet" href="css/csspersegi.css">
+    <script src="Js/logicpersegi.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Persegi</h1>
+    </header>
+    <section id="gambar">
+        <img src="assets/persegi.png" alt="Gambar Persegi" width="250px">
+    </section>
+
+    <section id="LuasInputSection">
+        <div class="Kalkulator" >
+            <form id="calculatorForm">
+                <label for="sisi">Sisi</label>
+                <input type="number" name="sisi" id="sisi" placeholder="Masukkan panjang sisi">
+            </form>
+        </div>
+    </section>
+    <section id="Inputbutton">
+        <button id="hitungLuas" onclick="hitungLuas()">Hitung Luas</button> 
+        <button id="hitungKeliling" onclick="hitungKeliling()">Hitung Keliling</button>
+        <button id="reset" onclick="resetHitungan()">Reset</button>
+    </section>
+    <div id="hasil-dari-persegi">
+        <p id="rumus"></p>
+        <p id="luas"></p>
+        <p id="keliling"></p>
+    </div>
+</body>
+</html>
